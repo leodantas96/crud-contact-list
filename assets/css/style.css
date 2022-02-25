@@ -2,6 +2,7 @@
 
 :root{
     --dark: #2b2d42;
+    --white: #ffffff;
     --light: #adb5bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
@@ -47,7 +48,7 @@ a {
 }
 
 .text-dark{
-    color: var(--dark);
+    color: var(--white);
 }
 
 .inline{
@@ -66,7 +67,7 @@ a {
 }
 
 #header nav{
-    background-color: #06d6a0;
+    background-color: #2b2d42;
     padding: 1em 0;
     width: 100%;
 }
@@ -104,7 +105,7 @@ table{
 }
 
 .table tr:hover{
-    background-color:#06d6a0 ;
+    background-color:#616695;
 }
 
 .table tr:hover td > a{
